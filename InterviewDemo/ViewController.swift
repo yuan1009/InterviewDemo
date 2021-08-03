@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     var test: String?
-    
+    var test2: String?
     func reverse(text: String) -> String {
         return String(text.reversed())
     }
