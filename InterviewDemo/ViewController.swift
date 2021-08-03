@@ -10,6 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     var test: String?
     
+    func reverse(text: String) -> String {
+        return String(text.reversed())
+    }
 
     @IBOutlet var redNumberButton: [UIButton]!
     @IBOutlet var blueNumberButton: [UIButton]!
@@ -18,6 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print(reverse(text: "stressed"))
         for red in redNumberButton {
             red.backgroundColor = UIColor(red: 82/255, green: 39/255, blue: 56/255, alpha: 0.7)
             red.setTitleColor(UIColor(red: 197/255, green: 95/255, blue: 110/255, alpha: 1), for: .normal)
