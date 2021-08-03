@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     var test: String?
+    
 
     @IBOutlet var redNumberButton: [UIButton]!
     @IBOutlet var blueNumberButton: [UIButton]!
